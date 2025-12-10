@@ -1,0 +1,2 @@
+tag,detection_tolerance_mm,mean_euclidean_mm,max_euclidean_mm,std_euclidean_mm,precision,recall,f1
+bayes_opt_best,3.0,1.337303908777393,22.135178731151008,2.5696338781616874,0.7587281795511222,0.8178763440860215,0.7871927554980596
