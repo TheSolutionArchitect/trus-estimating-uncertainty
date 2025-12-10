@@ -1,0 +1,56 @@
+
+
+(py310) H:\workspace\mcdo>python hdr-mcdo-v01-1.py --config config-mcdo-v01-1.json
+2025-12-01 19:35:13 INFO: Using device: cuda
+2025-12-01 19:37:58 INFO: Dataset preparation completed: 42 patients, 2625 slices.
+[I 2025-12-01 19:37:58,873] A new study created in memory with name: no-name-0f1e5bac-4af8-45d0-92a7-34a00ac814e2
+2025-12-01 23:31:09 INFO: Fold 1 completed. Best mean ED(mm): 0.306 at epoch 5.
+2025-12-02 03:36:30 INFO: Fold 2 completed. Best mean ED(mm): 0.338 at epoch 6.
+2025-12-02 07:14:39 INFO: Fold 3 completed. Best mean ED(mm): 0.228 at epoch 4.
+2025-12-02 11:45:28 INFO: Fold 4 completed. Best mean ED(mm): 0.348 at epoch 8.
+2025-12-02 15:36:48 INFO: Fold 5 completed. Best mean ED(mm): 0.294 at epoch 5.
+[I 2025-12-02 15:36:48,432] Trial 0 finished with value: 0.12662169799494008 and parameters: {'train.learning_rate': 0.0005514718587869892, 'train.batch_size': 4, 'model.feature_size': 48, 'model.drop_rate': 0.17959754525911098, 'augment.flip_prob': 0.29361118426546196, 'augment.rotate90_prob': 0.2935967122017216, 'augment.zoom_prob': 0.23485016730091968, 'metrics.pred_threshold': 0.6098528437324806}. Best is trial 0 with value: 0.12662169799494008.
+2025-12-02 19:00:15 INFO: Fold 1 completed. Best mean ED(mm): 1.084 at epoch 9.
+2025-12-02 23:54:08 INFO: Fold 2 completed. Best mean ED(mm): 1.156 at epoch 19.
+2025-12-03 03:49:25 INFO: Fold 3 completed. Best mean ED(mm): 0.844 at epoch 12.
+2025-12-03 08:01:57 INFO: Fold 4 completed. Best mean ED(mm): 1.059 at epoch 15.
+2025-12-03 12:20:43 INFO: Fold 5 completed. Best mean ED(mm): 0.909 at epoch 14.
+[I 2025-12-03 12:20:44,016] Trial 1 finished with value: 0.7615364663926216 and parameters: {'train.learning_rate': 0.001018582256686764, 'train.batch_size': 3, 'model.feature_size': 24, 'model.drop_rate': 0.29097295564859826, 'augment.flip_prob': 0.6994655844802531, 'augment.rotate90_prob': 0.3274034664069657, 'augment.zoom_prob': 0.3090949803242604, 'metrics.pred_threshold': 0.40502135295603015}. Best is trial 1 with value: 0.7615364663926216.
+2025-12-03 16:28:36 INFO: Fold 1 completed. Best mean ED(mm): 0.739 at epoch 8.
+2025-12-03 21:32:16 INFO: Fold 2 completed. Best mean ED(mm): 0.959 at epoch 13.
+2025-12-04 01:35:00 INFO: Fold 3 completed. Best mean ED(mm): 0.701 at epoch 7.
+2025-12-04 05:47:47 INFO: Fold 4 completed. Best mean ED(mm): 0.875 at epoch 9.
+2025-12-04 09:34:13 INFO: Fold 5 completed. Best mean ED(mm): 1.068 at epoch 6.
+[I 2025-12-04 09:34:13,899] Trial 2 finished with value: 0.8032850206265152 and parameters: {'train.learning_rate': 0.00045587590475301384, 'train.batch_size': 3, 'model.feature_size': 36, 'model.drop_rate': 0.08736874205941257, 'augment.flip_prob': 0.5671117368334277, 'augment.rotate90_prob': 0.2836963163912251, 'augment.zoom_prob': 0.3752867891211309, 'metrics.pred_threshold': 0.4599085529881075}. Best is trial 2 with value: 0.8032850206265152.
+2025-12-04 13:28:16 INFO: Fold 1 completed. Best mean ED(mm): 0.927 at epoch 13.
+2025-12-04 18:08:01 INFO: Fold 2 completed. Best mean ED(mm): 1.349 at epoch 18.
+2025-12-04 21:52:43 INFO: Fold 3 completed. Best mean ED(mm): 0.962 at epoch 11.
+2025-12-05 01:54:19 INFO: Fold 4 completed. Best mean ED(mm): 1.087 at epoch 13.
+2025-12-05 04:24:12 INFO: Fold 5 completed. Best mean ED(mm): 1.535 at epoch 3.
+[I 2025-12-05 04:24:13,077] Trial 3 finished with value: 0.806037353247298 and parameters: {'train.learning_rate': 0.0006877172495876584, 'train.batch_size': 4, 'model.feature_size': 24, 'model.drop_rate': 0.15427033152408348, 'augment.flip_prob': 0.5554487413172255, 'augment.rotate90_prob': 0.22787024763199865, 'augment.zoom_prob': 0.5645269111408631, 'metrics.pred_threshold': 0.40115723710618745}. Best is trial 3 with value: 0.806037353247298.
+2025-12-05 10:08:46 INFO: Fold 1 completed. Best mean ED(mm): 0.647 at epoch 14.
+2025-12-05 14:15:38 INFO: Fold 2 completed. Best mean ED(mm): 0.763 at epoch 6.
+2025-12-05 18:36:16 INFO: Fold 3 completed. Best mean ED(mm): 0.599 at epoch 7.
+2025-12-05 23:24:40 INFO: Fold 4 completed. Best mean ED(mm): 0.638 at epoch 9.
+2025-12-06 04:44:26 INFO: Fold 5 completed. Best mean ED(mm): 0.698 at epoch 12.
+[I 2025-12-06 04:44:26,577] Trial 4 finished with value: 0.6968165643613126 and parameters: {'train.learning_rate': 0.0002385264834812574, 'train.batch_size': 4, 'model.feature_size': 48, 'model.drop_rate': 0.24251920443493832, 'augment.flip_prob': 0.38276826150402243, 'augment.rotate90_prob': 0.25860326840383036, 'augment.zoom_prob': 0.6105398159072942, 'metrics.pred_threshold': 0.4820457481218804}. Best is trial 3 with value: 0.806037353247298.
+2025-12-06 08:02:20 INFO: Fold 1 completed. Best mean ED(mm): 0.495 at epoch 8.
+2025-12-06 11:03:42 INFO: Fold 2 completed. Best mean ED(mm): 0.718 at epoch 5.
+2025-12-06 15:10:41 INFO: Fold 3 completed. Best mean ED(mm): 0.320 at epoch 13.
+2025-12-06 18:31:26 INFO: Fold 4 completed. Best mean ED(mm): 0.685 at epoch 8.
+2025-12-06 22:15:23 INFO: Fold 5 completed. Best mean ED(mm): 0.807 at epoch 10.
+[I 2025-12-06 22:15:24,070] Trial 5 finished with value: 0.5429405186822724 and parameters: {'train.learning_rate': 0.00027832876780755863, 'train.batch_size': 2, 'model.feature_size': 24, 'model.drop_rate': 0.2727961206236346, 'augment.flip_prob': 0.3552679889600102, 'augment.rotate90_prob': 0.5975133706123892, 'augment.zoom_prob': 0.38702664565364664, 'metrics.pred_threshold': 0.5060204063533432}. Best is trial 3 with value: 0.806037353247298.
+2025-12-07 04:21:10 INFO: Fold 1 completed. Best mean ED(mm): 0.396 at epoch 13.
+2025-12-07 08:51:05 INFO: Fold 2 completed. Best mean ED(mm): 0.398 at epoch 6.
+2025-12-07 13:39:31 INFO: Fold 3 completed. Best mean ED(mm): 0.206 at epoch 7.
+2025-12-07 18:52:29 INFO: Fold 4 completed. Best mean ED(mm): 0.299 at epoch 9.
+2025-12-08 00:41:09 INFO: Fold 5 completed. Best mean ED(mm): 0.401 at epoch 11.
+[I 2025-12-08 00:41:09,390] Trial 6 finished with value: 0.13297583125360246 and parameters: {'train.learning_rate': 0.00087904513849726, 'train.batch_size': 1, 'model.feature_size': 48, 'model.drop_rate': 0.23253984700833435, 'augment.flip_prob': 0.7636993649385135, 'augment.rotate90_prob': 0.7368964102565894, 'augment.zoom_prob': 0.5587399872866512, 'metrics.pred_threshold': 0.6265622705069351}. Best is trial 3 with value: 0.806037353247298.
+2025-12-08 05:57:48 INFO: Fold 1 completed. Best mean ED(mm): 0.777 at epoch 16.
+2025-12-08 09:30:20 INFO: Fold 2 completed. Best mean ED(mm): 0.961 at epoch 5.
+2025-12-08 12:48:45 INFO: Fold 3 completed. Best mean ED(mm): 0.723 at epoch 4.
+2025-12-08 17:18:53 INFO: Fold 4 completed. Best mean ED(mm): 0.845 at epoch 11.
+2025-12-08 21:35:31 INFO: Fold 5 completed. Best mean ED(mm): 0.944 at epoch 9.
+[I 2025-12-08 21:35:31,909] Trial 7 finished with value: 0.7951497915397028 and parameters: {'train.learning_rate': 0.0002541588599842733, 'train.batch_size': 1, 'model.feature_size': 24, 'model.drop_rate': 0.0975990992289793, 'augment.flip_prob': 0.43320637381368926, 'augment.rotate90_prob': 0.3628094190643376, 'augment.zoom_prob': 0.6972425054911577, 'metrics.pred_threshold': 0.45702599800807675}. Best is trial 3 with value: 0.806037353247298.
+2025-12-08 21:35:32 INFO: [Final] Training best model on a single train/val split (Fold 0) before testing.
+2025-12-09 02:37:55 INFO: Fold 0 completed. Best mean ED(mm): 1.244 at epoch 20.
